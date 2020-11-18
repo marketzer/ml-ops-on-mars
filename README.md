@@ -1,2 +1,20 @@
-# ml-ops-on-mars
-This is a set of software exercises in the domain of ML Ops (Machine Learning Operations). They take place on Mars.
+# ML Ops 1: I heard that you know programming...
+
+## Installation
+The api needs the python library `flask` which can be installed via pip
+
+```console
+pip install flask
+```
+
+## Usage
+
+```console
+python api.py
+```
+
+## API
+
+```
+POST http://localhost:8080/predict [Number]
+```
